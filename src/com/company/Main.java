@@ -15,7 +15,6 @@ public class Main {
         int amount = sc.nextInt();
         System.out.println("Your yearly income: 2%");
         double yic = 0.02; //yearlyIncomeCoefficient
-        if (amount > 20000) System.out.println("From now on, you are our gold member!");
         System.out.println("Enter the duration of your deposit (years: 1, 2, 5):");
         int duration = sc.nextInt();
         System.out.println("Thanks for applying on deposit in uor bank!\n____________Please wait____________");
